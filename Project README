@@ -1,0 +1,32 @@
+
+Client/Server Development
+Grazioso Salvare Dashboard Project
+Overview
+The purpose of this project was to create an interactive dashboard for Grazioso Salvare utilizing the ‘Austin Animal Center’ database. This dashboard will help users to filter, search, visualize, and interact with the data tables about outcomes within the animal shelter. This will help to provide insight that can help this company make better decisions moving forward.
+Functionality
+The following functions will be available at launch:
+•	Data table – displays information from database with sorting, filtering, search features
+•	Interactive charts – Visualizations of the data 
+•	Geolocation map – Displays the locations of the animal’s using longitude and latitude
+Tools Needed
+•	MongoDB
+•	Dash Framework
+•	Python Libraries
+o	Pandas, plotly, dash_leaflet, jupyter
+Setup and Reproduction
+The setup is fairly easy. We only require Python, MongoDB and the necessary Python packages.
+Python Packages:
+ 
+Clone Repository:
+ 
+Install Dependencies:
+ 
+1.	Connect to MongoDB
+a.	Update credentials in the python script
+b.	Make sure MongoDB is populated with the dataset from Austin Animal Center Outcomes
+2.	Run Dashboard
+a.	Start Jupyter Notebook and open the file
+b.	Run all cells to start the application
+Challenges
+1.	MongoDB connection issues: Resolved this issue by updating user permissions and making sure the right connection was used
+2.	Data Tables: Sometimes large datasets can cause the table to lag. Fixed by implementing pagination and limiting the number of rows displayed at a time. 
